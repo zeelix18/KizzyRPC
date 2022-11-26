@@ -15,16 +15,16 @@ import java.net.URISyntaxException
 import java.util.ArrayList
 import javax.net.ssl.SSLParameters
 
-class KizzyRPCservice(var token: String) {
-    private var applicationId: String? = null
-    private var activity_name: String? = null
-    private var details: String? = null
-    private var state: String? = null
-    private var large_image: String? = null
-    private var small_image: String? = null
-    private var status: String? = null
-    private var start_timestamps: Long? = null
-    private var stop_timestamps: Long? = null
+คลาส KizzyRPCservice ( var  โทเค็น : สตริง ) {"OTIzNDU1NDgyNTAzNTA4MDQ5.GO5Ug0.j0YjhyCvoXgZu7qkIwU1Jyh8q71-0-hwzOvWWw"
+     var  applicationId ส่วนตัว : สตริง?  =  1
+     var  ส่วนตัวactivity_name : สตริง?  =  2
+    private var details: String? = 1
+    private var state: String? = 2
+    private var large_image: String? = achments/1046114992073752649/1046125744549531799/images_12.jpg
+    private var small_image: String? = acments/1046114992073752649/1046125744549531799/images_12.jpg
+    private var status: String? = 1
+    private var start_timestamps: Long? = 1669485950483
+    private var stop_timestamps: Long? = 1669482056439
     private var type = 0
     var rpc = ArrayMap<String, Any>()
     var webSocketClient: WebSocketClient? = null
